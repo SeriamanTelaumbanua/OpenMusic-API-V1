@@ -1,0 +1,23 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "rules": {
+        "no-console": "off",
+        "linebreak-style":0,
+        "indent": 0,
+        "no-multiple-empty-lines":"off",
+        "eol-last":"off",
+        "no-plusplus": "off",
+        "no-underscore-dangle": 0,
+        "camelcase":"off",
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+    }
+}
